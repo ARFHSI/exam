@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.list-item{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+/* nav bar end */
+
+
+/* mainpage start */
+.container{
+    border: 3px solid black;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.item1{
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+.RMbtn{
+    /* display: flex;
+    justify-content: center; */
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 10vw;
+    text-align: center;
+}
+
+.item2{
+    border: 3px solid black;
+    grid-column: 2/-1;
+
+}
+
+.squre1{
+    background-color: blue;
+    height: 10vh;
+    width: 10vw;
+
+    
+}
+
+
+.squre11{
+    background-color: blue;
+
+}
+.squre2{
+    background-color: blueviolet;
+}
+.squre3{
+    background-color: black;
+}
+
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.list-itemFt{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    gap: 10px;
+    list-style: none;
+}
